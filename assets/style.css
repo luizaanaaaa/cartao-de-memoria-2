@@ -1,23 +1,24 @@
 @import url('https://fonts.googleapis.com/css2?family=Tomorrow&display=swap&#39;);
 
 :root{
---text-color: #ffffff;
---card-front-color: #7a09d6ab;
---card-back-color: #2e5bd8cb;
+    --text-color: #ffffff;
+    --card-front-color: #7a09d6ab;
+    --card-back-color: #2e5bd8cb;
 }
 
-body {(img/bg-desktop-green.webp));
-font-family: Tomorrow;
+body {
+    background: url(img/bg-desktop-green.webp);
+    font-family: Tomorrow;
 }
 
 .cartao__conteudo {
-background-color: var(--card-front-color);
-text-align: center;
-height: 100%;
-transform-style: preserve-3d;
-transition: transform 300ms ease-in-out;
-transform-style: preserve-3d;
-transition: transform 308ms ease-in-out;
+    background-color: var(--card-front-color);
+    text-align: center;
+    height: 100%;
+    transform-style: preserve-3d;
+    transition: transform 300ms ease-in-out;
+    transform-style: preserve-3d;
+    transition: transform 308ms ease-in-out;
 }
 
 #container {
