@@ -10,7 +10,7 @@ body {
     background: url(img/bg-desktop-green.webp);
     font-family: Tomorrow;
 }
-
+                                           
 .cartao_conteudo {
     background-color: var(--card-front-color);
     text-align: center;
